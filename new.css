@@ -1,0 +1,251 @@
+/* Global View aka Desktop View */
+html {
+    background-color: #062441;
+}
+body {
+    //background-image:url(images/Font_symbol_of_letter_A.svg);
+    background-position: top center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Asap', sans-serif;
+    color: #b0bfd1o;
+}
+
+
+.logo{
+    margin-left: 20px;
+}
+a {
+    color: #B0BFD1;
+    text-decoration: none;
+}
+
+
+.header-container {
+    min-height: 100px;
+    width: 100%;
+    margin: 0 0;
+}
+
+
+header {
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.azure{
+    height: 80px;
+}
+
+
+.mybutton {
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 20px;
+}
+
+
+.highlight {
+    font-weight: 200;
+    color: #B0BFD1;
+    font-size: 30px;
+}
+
+.mob-wrapper {
+    display: none;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+
+.intro{
+    margin-left: 20px;
+}
+
+h1{
+    color:#B0BFD1;
+    font-size: 3rem;
+}
+
+.dis{
+    color:#B0BFD1;
+    font-size: 2rem;
+}
+
+.col {
+        color:#B0BFD1;
+
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: rgba(11, 20, 33, 0.842);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.col img {
+    width: 100%;
+    height: 55%;
+}
+
+h2{
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 1.7rem;
+}
+
+.col p {
+    font-size: 1rem;
+    padding: 0px 25px;
+    line-height: 1.25rem;
+}
+
+.read{
+    margin: 20px 25px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    background-color: #0D4370;
+    border: none;
+    text-align: center;
+    height: 35px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+ }
+
+main {
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 20%;
+}
+
+/* Tablet View */
+@media (max-width: 768px){
+
+
+    .highlight {
+        font-size: 20px;
+    }
+
+.col {
+    width: 45%;
+}
+
+.read{
+    width: 60%;
+}
+
+.header-container {
+    position: relative;
+}
+
+main {
+    padding-top: 40px;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    display: block;
+   }
+
+.logo {
+    padding: 40px 0; 
+}
+
+.mybutton {
+    margin-left: 0;
+}
+
+.mob-wrapper {
+    display: block;
+    padding-right: 30px;
+}
+
+.mob-nav {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.navbutton {
+    display: block;
+    background-color: coral;
+    padding: 15px 30px;
+    margin-left: -70px;
+    text-align: center;
+}
+
+h1{
+    color:white;
+    font-size: 2.2rem;
+}
+
+h2{
+    color:white;
+    font-size: 1.5rem;
+}
+
+.dis{
+    font-size: 1.5rem;
+}
+
+}
+
+
+
+/* Mobile View */
+@media (max-width: 400px){
+    
+
+    
+    .col {
+        width: 80%;
+    }
+
+    main{
+        justify-content: center;
+    }
+
+    h1{
+        color:white;
+        font-size: 2rem;
+    }
+
+    h2{
+        color:white;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width: 320px){
+
+
+    .col p{
+        display: none;
+    }
+}
