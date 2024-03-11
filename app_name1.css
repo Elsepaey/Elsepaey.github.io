@@ -95,11 +95,15 @@ section{
     font-size: 1.8rem;
     margin-top: 30px;
 }
+.code{
+    display: flex;
+    flex-wrap: wrap;
+}
 .code p{
+
     font-size: 1.8rem;
     margin-top: 30px;
-    margin-right:60px;
-    align:left
+   
 }
 .tech{
     background-color: rgba(141, 137, 137, 0.555);
