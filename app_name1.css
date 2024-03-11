@@ -98,6 +98,7 @@ section{
 .code p{
     font-size: 1.8rem;
     margin-top: 30px;
+    margin-right:60px;
 }
 .tech{
     background-color: rgba(141, 137, 137, 0.555);
