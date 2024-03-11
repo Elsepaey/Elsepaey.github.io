@@ -95,12 +95,10 @@ section{
     font-size: 1.8rem;
     margin-top: 30px;
 }
-.code{
-    display: flex;
-    flex-wrap: wrap;
-}
-.code p{
 
+.code p{
+display: flex;
+    flex-wrap: wrap;
     font-size: 1.8rem;
     margin-top: 30px;
    
