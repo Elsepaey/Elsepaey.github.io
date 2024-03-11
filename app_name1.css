@@ -96,12 +96,16 @@ section{
     margin-top: 30px;
 }
 
-.code p{
-display: flex;
-    flex-wrap: wrap;
-    font-size: 1.8rem;
-    margin-top: 30px;
+.code {
+
+    font-size: 1.2rem;
+    
+    margin-left:13%;
+    margin-bottom:40px;
    
+}
+.code p{
+    font-size:1.8rem
 }
 .tech{
     background-color: rgba(141, 137, 137, 0.555);
