@@ -152,6 +152,7 @@ section{
 }
 
 .col {
+    padding-bottom: 25px;
     width: 30%;
     margin-bottom: 40px;
     background-color: rgba(11, 20, 33, 0.842);
