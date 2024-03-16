@@ -284,8 +284,8 @@ section {
 @media (max-width: 425px){
     
 
-    .code p{
-        font-size:1rem
+    .code {
+        font-size:0.7rem
     }
     .col {
         width: 80%;
